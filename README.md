@@ -28,7 +28,7 @@ docker inspect --format='{{ .NetworkSettings.IPAddress }}' $(docker ps -l -q)
 ```
 
 ### Test the app
-Curl or open in a web browser path based on IP address followed by `/hello/World` eg.:
+Curl or open in a web browser URL based on IP address followed by `/hello/World` eg.:
 
 ```
 curl http://172.17.0.5/hello/World
