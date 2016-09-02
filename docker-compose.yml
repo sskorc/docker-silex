@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  docker-silex:
+    build: .
+    ports:
+      - "8080:8080"
